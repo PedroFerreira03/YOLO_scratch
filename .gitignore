@@ -1,2 +1,5 @@
 # Ignore virtual environment
 my_env/
+
+# Ignore the dataset
+tiny-imagenet-200/
