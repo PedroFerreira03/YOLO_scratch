@@ -15,22 +15,6 @@ This repository contains an end-to-end implementation of a YOLO-style object det
 
 ---
 
-## 🧱 Project Structure
-
-```bash
-├── model/                  # YOLO model definition
-├── utils/                  # IOU, loss, mAP, and other helper functions
-├── train/                  # Training and evaluation scripts
-├── data/                   # Dataloader and preprocessing (not shown here)
-├── notebooks/
-│   └── yolo_training.ipynb # Jupyter notebook with full training pipeline
-├── best_model.pth          # (Optional) Entire model object
-├── best_model_state.pth    # Best state dict saved during training
-└── README.md               # You're reading it!
-```
-
----
-
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
@@ -47,11 +31,7 @@ pip install torch torchvision matplotlib
 ```
 
 ### 3. Prepare dataset
-
-- Format: Each image should have labels in the format `(class_idx, x_center, y_center, width, height)`.
-- Labels must be normalized in range [0, 1].
-
-*(You may adapt your dataset or use Tiny ImageNet with bounding boxes.)*
+- This project was done using *tiny-imagenet*. You may need a license to use the dataset.
 
 ---
 
@@ -73,7 +53,7 @@ Implements:
 
 - Coordinate loss (x, y, w, h)
 - Confidence loss for object/no-object
-- Classification loss (cross-entropy via MSE on one-hot)
+- Classification loss
 
 Weighting parameters:
 - `l_coord`: weight for localization (default: `5`)
@@ -133,19 +113,11 @@ mAP at epoch 0: 0.427
 
 ---
 
-## 🛠️ To Do
-
-- [ ] Add data augmentation support
-- [ ] Add support for COCO-style annotations
-- [ ] TensorBoard integration
-- [ ] Convert to ONNX for deployment
-
----
-
 ## 🤝 Acknowledgments
 
 - Inspired by the YOLO (You Only Look Once) family of object detectors.
 - Built using PyTorch for academic/research use.
+- Used a small subset of *imagenet* dataset.
 
 ---
 
