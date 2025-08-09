@@ -20,8 +20,8 @@ This repository contains an end-to-end implementation of a YOLO-style object det
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/yolo-object-detection.git
-cd yolo-object-detection
+git clone https://github.com/PedroFerreira03/YOLO_scratch
+cd YOLO_scratch
 ```
 
 ### 2. Install dependencies
