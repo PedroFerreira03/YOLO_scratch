@@ -1,0 +1,5 @@
+# Ignore the dataset
+tiny-imagenet-200/
+
+# Ignore model
+*.pth
