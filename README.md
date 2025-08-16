@@ -1,4 +1,4 @@
-`NOTE`: I messed up when changing the work environment, which ended up deleting the 30+ commits that I had done over the work in the project detailing the features that were being added/implemented. 😭
+`NOTE`: I messed up when changing the work environment, which ended up deleting the 30+ commits that I had done over the course of the project detailing the features that were being added/implemented. 😭
 
 # YOLO Object Detection with Custom Loss and mAP Evaluation
 
