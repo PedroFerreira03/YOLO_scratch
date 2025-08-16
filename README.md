@@ -1,6 +1,6 @@
-# YOLO Object Detection with Custom Loss and mAP Evaluation
-
 `NOTE`: I messed up when changing the work environment, which ended up deleting the 30+ commits that I had done over the work in the project detailing the features that were being added/implemented.
+
+# YOLO Object Detection with Custom Loss and mAP Evaluation
 
 This repository contains an end-to-end implementation of a YOLO-style object detection model using PyTorch. The project includes custom loss computation, mean Average Precision (mAP) evaluation, and full training/validation routines, designed with flexibility for datasets like Tiny ImageNet or any dataset with bounding box annotations.
 
